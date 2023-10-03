@@ -21,6 +21,13 @@ namespace App
         public Pokemon(string name, int hp, int damage)  //Constructor
         {
             this.name = name;
+            this.hp = hp;
+            this.damage = damage;
+        }
+
+        string Attack(Pokemon opponent)
+        {
+            return "attack complete";
         }
     }
 }
