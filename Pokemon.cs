@@ -25,9 +25,18 @@ namespace App
             this.damage = damage;
         }
 
-        string Attack(Pokemon opponent)
+        public int Attack(Pokemon challenger, Pokemon opponent)
         {
-            return "attack complete";
+            opponent.hp = opponent.hp - challenger.damage;
+
+            return opponent.hp;
+        }
+
+        public int CounterAttack(Pokemon challenger, Pokemon opponent)
+        {
+            challenger.hp = challenger.hp - opponent.damage;
+
+            return challenger.hp;
         }
     }
 }

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace App
 {
-    class Action : Pokemon
+    class Pikachu : Pokemon
     {
-        public Action() 
-        {
 
-        }
     }
 }
