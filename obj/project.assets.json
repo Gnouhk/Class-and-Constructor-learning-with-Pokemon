@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "D:\\Users\\anh.kv\\.nuget\\packages\\": {}
+    "D:\\Users\\anh.kv\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\anh.kv\\source\\repos\\App\\App\\App.csproj",
+      "projectUniqueName": "D:\\Users\\anh.kv\\Documents\\GitHub\\Class-and-Constructor-learning-with-Pokemon\\App.csproj",
       "projectName": "App",
-      "projectPath": "D:\\Users\\anh.kv\\source\\repos\\App\\App\\App.csproj",
+      "projectPath": "D:\\Users\\anh.kv\\Documents\\GitHub\\Class-and-Constructor-learning-with-Pokemon\\App.csproj",
       "packagesPath": "D:\\Users\\anh.kv\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\anh.kv\\source\\repos\\App\\App\\obj\\",
+      "outputPath": "D:\\Users\\anh.kv\\Documents\\GitHub\\Class-and-Constructor-learning-with-Pokemon\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "D:\\Users\\anh.kv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

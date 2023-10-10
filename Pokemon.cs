@@ -12,17 +12,19 @@ namespace App
         public string name;
         public int hp;
         public int damage;
+        public string element;
 
         public Pokemon() //Default
         {
             
         }
 
-        public Pokemon(string name, int hp, int damage)  //Constructor
+        public Pokemon(string name, int hp, int damage, string element)  //Constructor
         {
             this.name = name;
             this.hp = hp;
             this.damage = damage;
+            this.element = element;
         }
 
         public int Attack(Pokemon challenger, Pokemon opponent)

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace App
 {
-    class Pikachu : Pokemon
+    class Charmander : Pokemon
     {
-        public Pikachu() : base("Pikachu", 5, 4, "Electric")
+        public Charmander() : base("Charmander", 5, 5, "Fire")
         {
 
-        }
+        } 
     }
 }
